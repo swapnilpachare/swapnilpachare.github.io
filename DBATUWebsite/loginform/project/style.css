@@ -1,0 +1,62 @@
+.navbar {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#navbar__logo {
+  background-color: #ff8177;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: black;
+  -moz-text-fill-color: red;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar__item {
+  height: 80px;
+}
+#back{
+    background: url(scene.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: auto;
+	height: 450px;
+}
+#road{
+    background: url(road.jpg);
+}	
+#img{
+	width: 150px;
+}
+
+#btn{
+	background-color: yellow;
+	width: 100px;
+	font-size: 30px;
+	margin-top: 30px;
+	
+}
+#dbtn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
