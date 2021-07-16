@@ -1,0 +1,62 @@
+  <head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+  </head>
+  <body>
+    <header>
+	 <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><button class="main__btn">Swapnil Pachare</a></button>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links" id="gmail"><a href="http://www.gmail.com">Gmail</a></li>
+          <li class="nav-links"><a href="#">Images</a></li>
+          <li id="sign_in"><a href="#">Sign In</a></li>
+        </ul>  
+      </nav>  
+    </header>  
+    
+    <!-- GOOGLE IMG -->  
+    <div class="logo">
+			     <img src="Google.jpg">
+			 </div>
+
+    
+    <!-- FORM SEARCH -->  
+    <div class="form">  
+      <form id="frmSearch"  method="get" />
+<input  type="text" id="txtSearch"     
+placeholder="Search"  />
+
+ <!-- BUTTONS -->
+<div class= "buttons">  
+      <input type="submit" value="Google Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'http://www.google.com/search?q=' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+      <p>Have questions about the COVID-19 vaccine? Get the facts</p>
+<p>Google offered in: हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
+    <!-- FOOTER -->
+    <footer>
+        <ul class="footer-left">
+          <li><a href="https://ads.google.com/">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li> 
+        </ul>
+        <ul class="footer-right">    
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>       
+    </footer>      
+  </body>
