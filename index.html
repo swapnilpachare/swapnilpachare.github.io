@@ -186,62 +186,6 @@ A dream is not that which you see while sleeping, it is something that does not 
 			</p>
           </div>
 
-
-
-<h2>.................</h2>
-
-    <div class="calendar">
-      <div class="calendar-body">
-        <span class="month-name">Month</span>
-        <span class="day-name">Day</span>
-        <span class="date-number">00</span>
-        <span class="year">0000</span>
-		
-		
-<body onload="startTime()">
-<div id="txt"><div>
-
-<script>
-function startTime() {
-   const today = new Date();
-   let h = today.getHours();
-   let m = today.getMinutes();
-   let s = today.getSeconds();
-   m = checkTime(m);
-   s = checkTime(s);
-   
-   document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
-   setTimeout(startTime, 1000);
-   }
-   
-   function checkTime(i) {
-   if (i < 10) {i = "0" + i};
-   return i;
-   }
-   </script>
-   </body>
-		
-      </div>
-    </div>
-
-    <script type="text/javascript">
-    const dayNumber = new Date().getDate();
-    const year = new Date().getFullYear();
-    const dayName = new Date().toLocaleString("default", {weekday: "long"});
-    const monthName = new Date().toLocaleString("default", {month: "long"});
-
-    document.querySelector(".month-name").innerHTML = monthName;
-    document.querySelector(".day-name").innerHTML = dayName;
-    document.querySelector(".date-number").innerHTML = dayNumber;
-    document.querySelector(".year").innerHTML = year;
-    </script>
-    <link rel="stylesheet" href="style.css">
-
-        </div>
-      </div>
-	  
-<h2>.................</h2>
-
 	  
     </section><!-- #featured-services -->
 
@@ -730,9 +674,59 @@ function drawHand(ctx, pos, length, width) {
           <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="img/portfolio/card1.jpg" class="link-details" title="Download Image"><i class="fa fa-download"></i></a>
+                <h2>.................</h2>
+
+    <div class="calendar">
+      <div class="calendar-body">
+        <span class="month-name">Month</span>
+        <span class="day-name">Day</span>
+        <span class="date-number">00</span>
+        <span class="year">0000</span>
+		
+		
+<body onload="startTime()">
+<div id="txt"><div>
+
+<script>
+function startTime() {
+   const today = new Date();
+   let h = today.getHours();
+   let m = today.getMinutes();
+   let s = today.getSeconds();
+   m = checkTime(m);
+   s = checkTime(s);
+   
+   document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+   setTimeout(startTime, 1000);
+   }
+   
+   function checkTime(i) {
+   if (i < 10) {i = "0" + i};
+   return i;
+   }
+   </script>
+   </body>
+		
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    const dayNumber = new Date().getDate();
+    const year = new Date().getFullYear();
+    const dayName = new Date().toLocaleString("default", {weekday: "long"});
+    const monthName = new Date().toLocaleString("default", {month: "long"});
+
+    document.querySelector(".month-name").innerHTML = monthName;
+    document.querySelector(".day-name").innerHTML = dayName;
+    document.querySelector(".date-number").innerHTML = dayNumber;
+    document.querySelector(".year").innerHTML = year;
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+        </div>
+      </div>
+	  
+<h2>.................</h2>
               </figure>
 
               <div class="portfolio-info">
