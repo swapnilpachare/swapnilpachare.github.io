@@ -20,7 +20,7 @@ body {
 }
 .not-found-image h1 {
   font-size: 400px;
-  background: url("../8.jpg") center no-repeat;
+  background: url("8.jpg") center no-repeat;
   background-size: 50%;
   -webkit-background-clip: text;
   color: transparent;
