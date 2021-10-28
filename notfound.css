@@ -20,8 +20,8 @@ body {
 }
 .not-found-image h1 {
   font-size: 400px;
-  background: url("8.jpg") center no-repeat;
-  background-size: 100%;
+  background: url("../8.jpg") center no-repeat;
+  background-size: 50%;
   -webkit-background-clip: text;
   color: transparent;
   filter: drop-shadow(0px 15px 20px rgba(0, 0, 0, 0.7));
@@ -29,7 +29,7 @@ body {
 
 .not-found h2 {
   margin-top: -8rem;
-  font-size: 10rem;
+  font-size: 7rem;
   font-weight: 800;
   color: #000;
 }
